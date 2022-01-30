@@ -12,6 +12,12 @@ a {
     text-decoration: none;
 }
 
+body {
+    background-color: #FAF8F7;
+}
+ul{
+    list-style: none;
+}
 header {
     position: relative;
     display: flex;
@@ -229,6 +235,7 @@ header img {
     line-height: 1.8rem;
     margin-top: 2.5rem;
 }
+
 .main-service-description {
     width: 100%;
     height: auto;
@@ -237,52 +244,66 @@ header img {
     text-align: center;
     background-color: #201E1C;
 }
-.main-service-contariners{
+
+.main-service-contariners {
     margin-top: 3rem;
 }
-.main-service-description{
+
+.main-service-description {
     min-width: 320px;
 }
-.main-service-description--container{
+
+.main-service-description--container {
     width: 288px;
     height: 152px;
     margin: 10px auto;
     background-color: #282623;
     border-radius: 10px;
-    padding:1.5rem;
+    padding: 1.5rem;
 }
-.main-service-contariners h3{
+
+.main-service-contariners h3 {
     color: white;
     font-size: 1.8rem;
     text-align: left;
     margin-top: 1.6rem;
 }
-.main-service-contariners p{
+
+.main-service-contariners p {
     font-size: 1.4rem;
-    color:#808080;
+    color: #808080;
     text-align: left;
     margin-top: 1.6rem;
 }
-.main-service-description--container .container-icon-1,.container-icon-2,.container-icon-3,.container-icon-4{
+
+.main-service-description--container .container-icon-1,
+.container-icon-2,
+.container-icon-3,
+.container-icon-4 {
     width: 24px;
     height: 24px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-.main-service-description--container .container-icon-1{
+
+.main-service-description--container .container-icon-1 {
     background-image: url(../Assets/icons/clock.svg);
 }
-.main-service-description--container .container-icon-2{
+
+.main-service-description--container .container-icon-2 {
     background-image: url(../Assets/icons/eye.svg);
 }
-.main-service-description--container .container-icon-3{
+
+.main-service-description--container .container-icon-3 {
     background-image: url(../Assets/icons/dollar-sign.svg);
 }
-.main-service-description--container .container-icon-4{
+
+.main-service-description--container .container-icon-4 {
     background-image: url(../Assets/icons/check-circle.svg);
 }
-.selectYourPlan{
+
+.selectYourPlan {
     min-width: 320px;
     width: 100%;
     max-width: 516px;
@@ -290,7 +311,6 @@ header img {
     padding-top: 80px;
     padding-bottom: 30px;
     text-align: center;
-    background-color: #FAF8F7;
     background-image: url('../Assets/img/bitcoinbaby.jpg');
     background-size: cover;
     background-position: center;
@@ -298,13 +318,197 @@ header img {
     margin: auto;
 
 }
-.selectYourPlan .background-image > h2{
+
+.selectYourPlan .background-image>h2 {
     color: #ffffff;
+    width: 288px;
+    height: 52px;
     font-size: 2.4rem;
     line-height: 1.8rem;
     text-align: center;
     margin-top: 1.6rem;
     margin: auto;
+}
+
+.plan-container {
+    min-width: 320px;
+    width: 100%;
+    max-width: 516px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.plan-container h2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    height: 288px;
+    height: 52px;
+    margin-top: 64px;
+    color: #201E1C;
+}
+
+.plan-container p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    margin: auto;
+    color: #757575;
+    position: static;
+    width: 288px;
+    height: 36px;
+    left: calc(50% - 288px/2);
+    top: calc(50% - 36px/2 + 38px);
+    margin-top: 24px;
+    margin-bottom: 24px;
 
 }
 
+.plan-container--button {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+    font-size: 12px;
+    line-height: 15px;
+    background-color: #F7931A;
+    width: 85px;
+    height: 15px;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    display: block;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+
+}
+
+.plan-container--button {
+    padding: 10px;
+}
+
+.all-plan-container {
+    background-color: white;
+    margin: 10px auto auto;
+    border-radius: 10px;
+    width: 190px;
+    height: 260px;
+    padding: 0.5rem;
+    -webkit-box-shadow: 0px 0px 14px -3px #000000;
+    box-shadow: 0px 0px 14px -3px #000000;
+
+}
+
+.plan-container h3 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 18px;
+    height: 288px;
+    height: 52px;
+    color: #201E1C;
+}
+
+.plan-container .plan-container--button-price {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 50px;
+    letter-spacing: -0.08em;
+    display: inline-block;
+}
+
+.plan-container .plan-container--dollar {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    display: inline-block;
+    bottom: 50px;
+}
+
+.all-plan-container .disconunt {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #757575;
+    justify-content: center;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.plan-container--slide-Button {
+    margin: 1rem auto;
+    border: 2px solid #F7931A;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 151px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.plan-container--slide-Button>p {
+    line-height: 28px;
+    color: rgb(0, 0, 0);
+
+}
+
+.footer-container {
+    width: 100%;
+    height: 150px;
+    min-width: 288px;
+    background-color: #F7931A;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+}
+.footer-container--icon, .footer-container--list{
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.footer-container .footer-container--list {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: 42px;
+    align-self: left;
+    text-align: left;
+}
+.footer-container .footer-container--list li{
+    margin-top: 15px;
+}
+
+.footer-container--icon{
+    background-image: url('../Assets/icons/batata.svg');
+    width: 51px;
+    height: 35px;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-self: right;
+}
+.footer-icon{
+   margin: auto;
+   align-items: center;
+   text-align: center;
+}
+.footer-icon p{
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    color: #ffffff;
+}
