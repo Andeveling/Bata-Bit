@@ -151,11 +151,12 @@ header img {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 10px;
-    width: 60%;
-    max-width: 200px;
-    margin: auto;
+    width: 170px;
+    max-width: 300px;
+    margin: 3rem;
     border-radius: 10px;
-    padding: 1rem 0rem 1rem 1rem;
+    padding: 1rem;
+    margin-top: 1rem;
 }
 
 .main-tables-container--grid1>.grid-item {
@@ -165,7 +166,26 @@ header img {
 .main-tables-container--grid1>.grid-item--price {
     text-align: right;
 }
-
+.flex-box-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.flex-box-container .box{
+    align-self: center;
+}
+.main-table-container--title--comision h3 {
+    color: #1A9AF7;
+    text-align: left;
+    max-width: 280px;
+    width: 190px;
+    height: 31px;
+    margin: auto;
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    margin-top: 50px;
+    margin-left: 3rem;
+}
 
 .main-table-container--title h3 {
     color: #FF9536;
@@ -177,10 +197,25 @@ header img {
     font-size: 1.8rem;
     line-height: 2.3rem;
     margin-top: 50px;
+    margin-left: 3rem;
 }
 
 .main-table-container--footer {
     background-color: #FFE9D4;
+    border-radius: 5px;
+    max-width: 280px;
+    width: 190px;
+    height: 31px;
+    margin: 1.8rem auto;
+    color: #282623;
+    font-size: 1.2rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 1rem 0 0 0;
+}
+.main-table-container--footer-comision {
+    background-color: #E7F5FF;;
     border-radius: 5px;
     max-width: 280px;
     width: 190px;
@@ -241,22 +276,40 @@ header img {
     height: auto;
     padding-top: 80px;
     padding-bottom: 30px;
+    min-width: 320px;
     text-align: center;
     background-color: #201E1C;
+    margin: auto;
+    align-items: center;
 }
 
 .main-service-contariners {
     margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .main-service-description {
     min-width: 320px;
+    justify-content: center;
+    width: 100%;
+    
+}
+.containers-main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 700px;
+    margin: auto;
+
 }
 
 .main-service-description--container {
     width: 288px;
     height: 152px;
-    margin: 10px auto;
+    margin: 10px 10px;
     background-color: #282623;
     border-radius: 10px;
     padding: 1.5rem;
@@ -306,12 +359,11 @@ header img {
 .selectYourPlan {
     min-width: 320px;
     width: 100%;
-    max-width: 516px;
     height: 50vh;
     padding-top: 80px;
     padding-bottom: 30px;
     text-align: center;
-    background-image: url('../Assets/img/bitcoinbaby.jpg');
+    background-image: url('../Assets/img/bitcoinbaby2x.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
